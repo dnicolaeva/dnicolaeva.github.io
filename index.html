@@ -1,1 +1,319 @@
-Hello World
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>Dana Nikolaeva Chambourova</title>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/motion-ui/1.1.1/motion-ui.min.css" />
+</head>
+
+<body>
+  <header>
+  <div data-sticky-container>
+    <div id="resize-navbar" class="sticky" data-sticky data-anchor="sec2" data-margin-top="0" data-sticky-on="small">
+      <div class="title-bar resize text-center" data-responsive-toggle="main-navbar" data-hide-for="medium">
+            <button type="button" data-toggle>Menu</button>
+      </div>
+
+      <nav id="main-navbar" class="small-12">
+        <ul id="main-narbar-ul" class="title-bar menu expanded shrink dropdown vertical medium-horizontal text-center" data-magellan data-options="animationEasing: linear; animationDuration: 500;">
+          <li><a href="/about.html">About</a></li>
+          <li><a href="#tech">Tech</a></li>
+          <li><a href="#other">Other</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  </header>
+
+  <section id="intro" class="main-body-section">
+    <div id="title" class="fadeInRight">
+      <h1>Proud Madrileña.<br>
+      Somehow made it all the way<br>
+      to San Francisco. Made sure to<br>
+      bring lot's of wine with me.</h1>
+    </div>
+    <div id="subtitle">
+      <h2>madrileña fem (pl. madrileñas)</h2>
+      <h2>Madrilenian; of or from Madrid, Spain</h2>
+    </div>
+
+    <img id="intro-img" src="./media/intro-dali.png" alt="watermark">
+  </section>
+
+  <section id="about" class="main-body-section" data-magellan-target="about">
+    <div id="about-slider" class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+      <ul id="about-orbit-container" class="orbit-container">
+        <button class="orbit-previous"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
+        <button class="orbit-next"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
+
+        <li class="is-active orbit-slide">
+          <img class="orbit-image" src="./media/places/sanfran.jpg">
+        </li>
+        <li class="orbit-slide">
+          <img class="orbit-image" src="./media/places/tahoe.jpg">
+        </li>
+        <li class="orbit-slide">
+          <img class="orbit-image" src="./media/places/seattle.jpg">
+        </li>
+        <li class="orbit-slide">
+          <img class="orbit-image" src="./media/places/seattle2.jpg">
+        </li>
+        <li class="orbit-slide">
+          <img class="orbit-image" src="./media/places/seattle3.jpg">
+        </li>
+
+      </ul>
+    </div>
+  </section>
+
+  <section class="quote-section-1">
+    "Life is a moment. There is no hereafter. So make it burn always with the hardest flame."
+    - Oscar Wilde
+  </br> </br>
+    <a href="/about.html">This is how I make mine burn.</a>
+  </section>
+
+  <section id="tech" class="main-body-section projects" data-magellan-target="tech">
+    <div class="section-title text-center">Tech</div>
+
+      <!-- <jobs> -->
+    <div class="row align-middle">
+      <div class="small-offset-2 small-8 large-offset-3 large-6 ">
+        <div class="project">
+          <div class="project-title">
+            Flexport | Software Engineer
+          </div>
+          <div class="project-info">
+            Full stack web development | May 2019 - Present<br>
+            Ruby on Rails, React.js & Flow
+          </div>
+          <div class="project-description">
+Used Ruby on Rails & React.js  to build Flexport’s platform for the ocean service and procurement teams.<br><br>
+Led the initiative to introduce a standardized integration layer to communicate with suppliers and customers. This is an essential piece to be able to automate the ocean freight industry. My team of 4 joined me in implementing the system I designed.<br><br>
+Established and grew the Empowering Women, Femme & Non-binary aligned folks @ Flexport group. Aligned Flexport’s unofficial groups to create a D&I task force that helped kick-start the conversation in the workforce and the hiring of a D&I&B consulting company.
+          </div>
+
+          <br><br>
+          <div class="project-title">
+            Pinterest | Software Engineering Internship
+          </div>
+          <div class="project-info">
+            Offline backend service | May - August 2016<br>
+            Python & Java
+          </div>
+          <div class="project-description">
+            Designed and developed data mining parsers to improve country and language detection for “pins” and  improve content localization for international users.
+          </div>
+
+          <br><br>
+
+          <div class="project-title">
+            Microsoft | Software Engineering Internship
+          </div>
+          <div class="project-info">
+            Full stack web development | May - August 2015<br>
+            C# & HTML/CSS/JS & Typescript
+          </div>
+          <div class="project-description">
+            Design and developed end-to-end the onboarding experience for the Operational Management Suite (OMS) platform.
+            Refactored the OMS configuration layer to allow user and company level configurations.
+          </div>
+
+          <br><br>
+
+          <div class="project-title">
+            Team Interval | Software Engineering Internship
+          </div>
+          <div class="project-info">
+            Full stack web development | May - August 2014<br>
+            Ruby on Rails & HTML/CSS/JS
+          </div>
+          <div class="project-description">
+            Contributed to the student health tracking Ruby on Rails App & its testing framework. Redesigned and built the new company’s marketing page and all it’s media content.
+          </div>
+        </div>
+      </div>
+    </div>
+      <!-- </jobs> -->
+
+      <!-- <audio bubble> -->
+    <div class="row align-middle">
+      <div class="small-offset-2 small-8 large-offset-3 large-6 ">
+        <div class="project">
+          <div class="project-title">
+            <a>Audio Bubble</a>
+          </div>
+          <div class="project-info">
+            Webapp | February 2016<br>
+            Node.js & HTML/CSS/JS & D3.js
+          </div>
+          <div class="project-description">
+            A music visualizer that let's you search for a Spotify song and then creates aster plots to represent the pitch per time. Select multiple songs and then you will be able to compare and analyze the key differences between artists and/or styles.
+          </div>
+          <div class="project-link">
+            <a href="https://github.com/dnicolaeva/audiobubble" target="_blank"><button>View on github</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+      <!-- </audio bubble> -->
+
+      <!-- <moma color palette> -->
+    <div class="row align-middle">
+      <div class="small-offset-2 small-8 large-offset-3 large-6 ">
+        <div class="project">
+          <div class="project-title">
+            MOMA Color Palette
+          </div>
+          <div class="project-info">
+            Webapp | June 2016<br>
+            Python preprocessing, Node.js & Angular.js & MongoDB
+          </div>
+          <div class="project-description">
+            Collects all of MOMA's artwork and uses k-means to extract and displays the main colors. It let's you enjoy the beauty of color schemes on their own and experience a museum in a difference way.
+          </div>
+          <div class="project-link">
+            <a href="https://github.com/dnicolaeva/" target="_blank"><button>View on github</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+      <!-- </moma color palette> -->
+
+
+
+  </section>
+
+  <section class="quote-section-2">
+    “Don’t follow your passion; follow your effort." - Mark Cuban
+  </section>
+
+  <section id="video" class="main-body-section">
+      <video autoplay loop muted>
+        <source src="./media/algarve.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+  </section>
+
+  <section id="other" class="main-body-section" data-magellan-target="other">
+    <div class="section-title text-center">OTHER</div>
+
+      <!-- <dinner> -->
+        <div class="row align-middle">
+          <div class="small-offset-2 small-8 large-offset-3 large-6 columns">
+            <div class="project">
+              <div class="project-title">
+                SHARE DINNERS
+              </div>
+              <div class="project-info">
+                Dinner for women-identifying folks | Monthly, San Francisco
+              </div>
+              <div class="project-description">
+                This is my attempt to bring these really cool women and tasty food together!
+                I realized I wanted to host parties for my girlfriends & their girlfriends after
+                I realized how many times I have said “I need to introduce you to my friend - she is so kickass”.
+                Once a month-ish I invite a bunch of folks to come and join for some themed dinner party and ask
+                them to bring another friend that the group would enjoy meeting in exchange.<br><br>
+                If this is something you would like to ever attend, email me! New friends are always welcome.
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- </dinner> -->
+
+      <!-- <dinner> -->
+        <div class="row align-middle">
+          <div class="small-offset-2 small-8 large-offset-3 large-6 columns">
+            <div class="project">
+              <div class="project-title">
+                Backpacking & anything of the sorts
+              </div>
+              <div class="project-info">
+                Shameless advertising | Whenever, San Francisco
+              </div>
+              <div class="project-description">
+                This is one of my favorite things to do outside of work but having to
+                convince my friends to join me is a little less fun. If you are in search of
+                more buddies to go outside and do things let's hangout!
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- </dinner> -->
+  </section>
+
+  <section class="bg">
+  </section>
+
+  <section id="contact" data-magellan-target="contact">
+    <div class="section-title text-center">Contact</div>
+    <div id="contact-info" class="row">
+      <div class="small-12 medium-4 large-4 columns text-center">
+        <img src="./media/contact-face.png">
+        <div class="contact-title">More on my experiences</div>
+        <div class="contact-description">View a
+          <a href="http://dchambourova.com/resume.pdf">PDF version</a> or
+          <a href="www.linkedin.com/in/dchambourova">LinkedIn</a></div>
+      </div>
+      <div class="small-12 medium-4 large-4 columns text-center">
+        <img src="./media/contact-face2.png">
+        <div class="contact-title">Let's chat more</div>
+        <div class="contact-description">Email me at
+          <a href="mailto:dchambourova@gmail.com">dchambourova@gmail.com</a></div>
+      </div>
+      <div class="small-12 medium-4 large-4 columns text-center">
+        <img src="./media/contact-chair.png">
+        <div class="contact-title">What I do when it rains</div>
+        <div class="contact-description">Follow my
+          <a href="https://goodreads.com/dnicolaeva">Goodreads</a>
+          or
+          <a href="https://open.spotify.com/user/1120836101">Spotify playlists</a>
+
+        </div>
+      </div>
+    </div>
+    <div id="contact-social" class="row">
+      <div class="small-offset-2 small-8 large-offset-3 large-6 columns text-center">
+        <div class="menu-centered">
+          <ul class="menu">
+            <li><a href="www.linkedin.com/in/dchambourova"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+            <li><a href="https://github.com/dnicolaeva/"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+            <li><a href="https://open.spotify.com/user/1120836101"><i class="fa fa-spotify" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.instagram.com/dnicolaeva/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            <li><a href="hhttps://twitter.com/dchambourova"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="contact-footnote" class="row">
+      <div class="small-offset-2 small-8 large-offset-3 large-6 columns text-center">
+        Made with love and lots of matcha tea.
+        San Francisco, 2018
+      </div>
+    </div>
+  </section>
+
+  <footer data-sticky-container>
+    <div id="bottom-border" class="sticky text-center" data-sticky data-stick-to="bottom" data-margin-bottom="0">
+      <p>Dana Nikolaeva Chambourova</p>
+    </div>
+  </footer>
+  <!-- Scripts -->
+  <script src="./lib/jquery/dist/jquery.min.js"></script>
+  <script src="./lib/foundation-sites/dist/foundation.min.js"></script>
+  <script>
+  $(document).foundation();
+</script>
+  <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script src="./js/script.js"></script>
+
+
+
+</body>
+</html>
