@@ -5216,6 +5216,10 @@ h1 {
   text-decoration: none;
   text-transform: none;
   letter-spacing: 2px;
+  /* text-align: end; */
+}
+
+.h1-special {
   text-align: end;
 }
 
